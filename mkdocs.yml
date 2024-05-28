@@ -1,0 +1,255 @@
+site_name: Trade Marks Act
+site_url: https://www.comsect.in/trademarks-act/
+site_author: Comsect™
+site_description: Trade Marks Act, 1999
+theme:
+  name: material
+  language: en
+  logo: assets/ashoka-chakra-logo.png
+  favicon: assets/comsect-logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - content.tooltips
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - attr_list
+  - md_in_html
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/comsect
+      name: Comsect™ on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/comsect
+      name: Comsect™ on GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@comsect
+      name: Comsect™ on YouTube
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+  - social:
+      cards_layout_options:
+        background_color: "#06038D"
+
+nav:
+  - Introduction: index.md
+  - Chapter I - Preliminary:
+    - Section 1: en/1.md
+    - Section 2: en/2.md
+  - Chapter II - The Register and Conditions for Registration:
+    - Section 3: en/3.md
+    - Section 4: en/4.md
+    - Section 5: en/5.md
+    - Section 6: en/6.md
+    - Section 7: en/7.md
+    - Section 8: en/8.md
+    - Section 9: en/9.md
+    - Section 10: en/10.md
+    - Section 11: en/11.md
+    - Section 12: en/12.md
+    - Section 13: en/13.md
+    - Section 14: en/14.md
+    - Section 15: en/15.md
+    - Section 16: en/16.md
+    - Section 17: en/17.md
+  - Chapter III - Procedure for and Duration of Registration:
+    - Section 18: en/18.md
+    - Section 19: en/19.md
+    - Section 20: en/20.md
+    - Section 21: en/21.md
+    - Section 22: en/22.md
+    - Section 23: en/23.md
+    - Section 24: en/24.md
+    - Section 25: en/25.md
+    - Section 26: en/26.md
+  - Chapter IV - Effect of Registration:
+    - Section 27: en/27.md
+    - Section 28: en/28.md
+    - Section 29: en/29.md
+    - Section 30: en/30.md
+    - Section 31: en/31.md
+    - Section 32: en/32.md
+    - Section 33: en/33.md
+    - Section 34: en/34.md
+    - Section 35: en/35.md
+    - Section 36: en/36.md
+  - Chapter V - Special Provisions relating to Protection of Trade Marks through International Registration under the Madrid Protocol:
+    - Section 36A: en/36A.md
+    - Section 36B: en/36B.md
+    - Section 36C: en/36C.md
+    - Section 36D: en/36D.md
+    - Section 36E: en/36E.md
+    - Section 36F: en/36F.md
+    - Section 36G: en/36G.md
+  - Chapter VI - Assignment and Transmission:
+    - Section 37: en/37.md
+    - Section 38: en/38.md
+    - Section 39: en/39.md
+    - Section 40: en/40.md
+    - Section 41: en/41.md
+    - Section 42: en/42.md
+    - Section 43: en/43.md
+    - Section 44: en/44.md
+    - Section 45: en/45.md
+  - Chapter VII - Use of Trade Marks and Registered Users:
+    - Section 46: en/46.md
+    - Section 47: en/47.md
+    - Section 48: en/48.md
+    - Section 49: en/49.md
+    - Section 50: en/50.md
+    - Section 51: en/51.md
+    - Section 52: en/52.md
+    - Section 53: en/53.md
+    - Section 54: en/54.md
+    - Section 55: en/55.md
+    - Section 56: en/56.md
+  - Chapter VII - Rectification and Correction of the Register:
+    - Section 57: en/57.md
+    - Section 58: en/58.md
+    - Section 59: en/59.md
+    - Section 60: en/60.md
+  - Chapter VIII - Collective Marks:
+    - Section 61: en/61.md
+    - Section 62: en/62.md
+    - Section 63: en/63.md
+    - Section 64: en/64.md
+    - Section 65: en/65.md
+    - Section 66: en/66.md
+    - Section 67: en/67.md
+    - Section 68: en/68.md
+  - Chapter IX - Collective Trade Marks:
+    - Section 69: en/69.md
+    - Section 70: en/70.md
+    - Section 71: en/71.md
+    - Section 72: en/72.md
+    - Section 73: en/73.md
+    - Section 74: en/74.md
+    - Section 75: en/75.md
+    - Section 76: en/76.md
+    - Section 77: en/77.md
+    - Section 78: en/78.md
+  - Chapter X - Special Provisions for Textile Goods [Omitted]:
+    - Section 79: en/79.md
+    - Section 80: en/80.md
+    - Section 81: en/81.md
+    - Section 82: en/82.md
+  - Chapter XI - Appeals:
+    - Section 83: en/83.md
+    - Section 84: en/84.md
+    - Section 85: en/85.md
+    - Section 86: en/86.md
+    - Section 87: en/87.md
+    - Section 88: en/88.md
+    - Section 89: en/89.md
+    - Section 89A: en/89A.md
+    - Section 90: en/90.md
+    - Section 91: en/91.md
+    - Section 92: en/92.md
+    - Section 93: en/93.md
+    - Section 94: en/94.md
+    - Section 95: en/95.md
+    - Section 96: en/96.md
+    - Section 97: en/97.md
+    - Section 98: en/98.md
+    - Section 99: en/99.md
+    - Section 100: en/100.md
+  - Chapter XII - Offences, Penalties and Procedure:
+    - Section 101: en/101.md
+    - Section 102: en/102.md
+    - Section 103: en/103.md
+    - Section 104: en/104.md
+    - Section 105: en/105.md
+    - Section 106: en/106.md
+    - Section 107: en/107.md
+    - Section 108: en/108.md
+    - Section 109: en/109.md
+    - Section 110: en/110.md
+    - Section 111: en/111.md
+    - Section 112: en/112.md
+    - Section 113: en/113.md
+    - Section 114: en/114.md
+    - Section 115: en/115.md
+    - Section 116: en/116.md
+    - Section 117: en/117.md
+    - Section 118: en/118.md
+    - Section 119: en/119.md
+    - Section 120: en/120.md
+    - Section 121: en/121.md
+  - Chapter XIII - Miscellaneous:
+    - Section 122: en/122.md
+    - Section 123: en/123.md
+    - Section 124: en/124.md
+    - Section 125: en/125.md
+    - Section 126: en/126.md
+    - Section 127: en/127.md
+    - Section 128: en/128.md
+    - Section 129: en/129.md
+    - Section 130: en/130.md
+    - Section 131: en/131.md
+    - Section 132: en/132.md
+    - Section 133: en/133.md
+    - Section 134: en/134.md
+    - Section 135: en/135.md
+    - Section 136: en/136.md
+    - Section 137: en/137.md
+    - Section 138: en/138.md
+    - Section 139: en/139.md
+    - Section 140: en/140.md
+    - Section 141: en/141.md
+    - Section 142: en/142.md
+    - Section 143: en/143.md
+    - Section 144: en/144.md
+    - Section 145: en/145.md
+    - Section 146: en/146.md
+    - Section 147: en/147.md
+    - Section 148: en/148.md
+    - Section 149: en/149.md
+    - Section 150: en/150.md
+    - Section 151: en/151.md
+    - Section 152: en/152.md
+    - Section 153: en/153.md
+    - Section 154: en/154.md
+    - Section 155: en/155.md
+    - Section 156: en/156.md
+    - Section 157: en/157.md
+    - Section 158: en/158.md
+    - Section 159: en/159.md
+
+copyright: Copyright &copy 2024 <a href="https://www.github.com/comsect">Comsect™</a>. All rights reserved.
